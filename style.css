@@ -35,17 +35,17 @@ textarea {
     /* COLORS */
     --BGCOLOR-FADE: rgb(252, 220, 160);
     --BGCOLOR: orange;
-    --BGIMAGE: linear-gradient(to bottom, var(--BGCOLOR), var(--BGCOLOR-FADE));
+    --BGIMAGE: url(./img/Wallpaper.jpg);
     --BODY-BGCOLOR: #333;
     --BORDER-COLOR: whitesmoke;
     --FONT-COLOR: whitesmoke;
     --HEADER-BGCOLOR: #000;
-    --HEADER-COLOR: #FFF;
+    --HEADER-COLOR: orange;
     --HERO-BGCOLOR: rgba(51, 178, 51, 0.75);
     --HERO-COLOR: #FFF;
     --HIGHLIGHT-COLOR: rgb(51, 178, 51);
     --LINK-ACTIVE: orange;
-    --LINK-COLOR: #FFF;
+    --LINK-COLOR: red;
     --LINK-HOVER: rgb(252, 200, 103);
     --NAV-BGCOLOR: rgb(20, 20, 20);
 
@@ -84,6 +84,7 @@ html {
     font-family: var(--FF);
     background-color: var(--BGCOLOR);
     background-image: var(--BGIMAGE);
+    background-attachment: fixed;
 }
 
 body {
