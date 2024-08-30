@@ -175,7 +175,7 @@ h1,
 
   .hero__h2 {
     background-color: var(--HERO-BGCOLOR);
-    color: var(--HERO-COLOR);
+    color: #000;
     padding: 0.25em, 0.5em;
     letter-spacing: 0.1rem;
     text-shadow: 2px 2px 5px var(--BORDER-COLOR);
